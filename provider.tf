@@ -12,6 +12,8 @@ provider "openstack" {
   user_name   = "admin"
   password    = var.os_password
   tenant_name = "admin"
+  user_domain_name    = "default"    
+  project_domain_name = "default"  
   region      = "microstack"
   insecure    = true
 }
