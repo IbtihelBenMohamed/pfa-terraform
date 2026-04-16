@@ -45,3 +45,5 @@ resource "openstack_compute_instance_v2" "vm_ips" {
   user_data       = file("scripts/ips-init.sh")
   network { name = "NET-MONITORING" }
 }
+
+
