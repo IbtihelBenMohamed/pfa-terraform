@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "openstack" {
-  auth_url    = "http://10.20.20.1:5000/v3"
+  auth_url    = "https://10.20.20.1:5000/v3"
   user_name   = "admin"
   password    = var.os_password
   tenant_name = "admin"
